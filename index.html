@@ -1,123 +1,27 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>UNIDUO Kft. – Építőipari megoldások</title>
-  <meta name="description" content="UNIDUO Kft. – professzionális építőipari szolgáltatások. Megbízható partner az építőiparban, tervezéstől a kivitelezésig." />
-  <meta name="keywords" content="építőipar, építőipari szolgáltatás, UNIDUO Kft, generálkivitelezés, építőipari cég Magyarország" />
-  <meta name="theme-color" content="#0a84ff" />
-  <link rel="icon" href="assets/logo.png" type="image/png" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Az én weboldalam</title>
+  <link rel="stylesheet" href="stílusok.css">
 </head>
 <body>
-  <a class="skip-link" href="#tartalom">Ugrás a tartalomra</a>
 
-  <header class="site-header" role="banner">
-    <div class="container header-inner">
-      <a class="brand" href="#home" aria-label="Főoldal">
-        <img src="assets/logo.png" alt="UNIDUO Kft. logó" width="40" height="40" />
-        <span class="brand-name">UNIDUO Kft.</span>
-      </a>
-      <nav class="nav" aria-label="Fő navigáció">
-        <button class="nav-toggle" aria-expanded="false" aria-controls="fomenu" aria-label="Menü megnyitása">☰</button>
-        <ul id="fomenu" class="nav-list">
-          <li><a href="#rolunk">Rólunk</a></li>
-          <li><a href="#szolgaltatasok">Szolgáltatások</a></li>
-          <li><a href="#referenciak">Referenciák</a></li>
-          <li><a href="#kapcsolat">Kapcsolat</a></li>
-        </ul>
-      </nav>
-    </div>
+  <!-- Logó a lap tetején -->
+  <header>
+    <img src="ChatGPT kép 2025.jpg" alt="Logó" width="200">
+    <h1>Üdvözöllek a weboldalamon!</h1>
   </header>
 
-  <main id="tartalom">
-    <section id="home" class="hero">
-      <div class="container hero-inner">
-        <div class="hero-copy">
-          <h1>UNIDUO Kft. – Építőipari szolgáltatások</h1>
-          <p>Cégünk az építőipar minden területén megbízható partner. Tervezéstől a kivitelezésig professzionális megoldásokat nyújtunk.</p>
-          <div class="cta-group">
-            <a href="#kapcsolat" class="btn primary">Ajánlatot kérek</a>
-            <a href="#szolgaltatasok" class="btn">Szolgáltatásaink</a>
-          </div>
-        </div>
-        <div class="hero-visual" aria-hidden="true">
-          <img src="assets/logo.png" alt="UNIDUO Kft. építőipari logó" class="hero-logo" />
-        </div>
-      </div>
-    </section>
-
-    <section id="rolunk" class="section">
-      <div class="container">
-        <h2>Rólunk</h2>
-        <p>A <strong>UNIDUO Kft.</strong> évek óta jelen van a magyar építőiparban. Szakterületünk a generálkivitelezés, ipari és lakóépületek teljes körű megvalósítása. Küldetésünk, hogy minőségi, határidőre elkészült projektekkel támogassuk ügyfeleinket.</p>
-      </div>
-    </section>
-
-    <section id="szolgaltatasok" class="section alt">
-      <div class="container">
-        <h2>Szolgáltatások az építőiparban</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Generálkivitelezés</h3>
-            <p>Komplett építőipari megoldások a tervezéstől a kulcsrakész átadásig.</p>
-          </article>
-          <article class="card">
-            <h3>Ipari építkezések</h3>
-            <p>Gyárak, raktárak, csarnokok építése modern technológiával.</p>
-          </article>
-          <article class="card">
-            <h3>Lakóépületek</h3>
-            <p>Építőipari kivitelezés családi házak, társasházak és középületek számára.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="referenciak" class="section">
-      <div class="container">
-        <h2>Referenciák</h2>
-        <div class="grid">
-          <figure class="work"><img loading="lazy" src="assets/logo.png" alt="UNIDUO Kft. referencia 1" /><figcaption>Ipari csarnok kivitelezés</figcaption></figure>
-          <figure class="work"><img loading="lazy" src="assets/logo.png" alt="UNIDUO Kft. referencia 2" /><figcaption>Családi ház építés</figcaption></figure>
-          <figure class="work"><img loading="lazy" src="assets/logo.png" alt="UNIDUO Kft. referencia 3" /><figcaption>Felújítás és átalakítás</figcaption></figure>
-        </div>
-      </div>
-    </section>
-
-    <section id="kapcsolat" class="section alt">
-      <div class="container">
-        <h2>Kapcsolat</h2>
-        <p>Lépj kapcsolatba velünk, és 24 órán belül válaszolunk. UNIDUO Kft. – a biztos választás az építőiparban.</p>
-        <form class="contact-form" name="kapcsolat" method="post" data-netlify="true">
-          <input type="hidden" name="form-name" value="kapcsolat" />
-          <div class="form-row">
-            <label for="nev">Név</label>
-            <input id="nev" name="nev" type="text" required />
-          </div>
-          <div class="form-row">
-            <label for="email">E-mail</label>
-            <input id="email" name="email" type="email" required />
-          </div>
-          <div class="form-row">
-            <label for="uzenet">Üzenet</label>
-            <textarea id="uzenet" name="uzenet" rows="5" required></textarea>
-          </div>
-          <button class="btn primary" type="submit">Küldés</button>
-        </form>
-      </div>
-    </section>
+  <!-- Tartalom -->
+  <main>
+    <p>Ezt az oldalt GitHub Pages segítségével hoztam létre. 🚀</p>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© <span id="ev"></span> UNIDUO Kft. – Építőipari szolgáltatások</p>
-      <div class="footer-links">
-        <a href="#">Adatvédelem</a>
-        <a href="#">Impresszum</a>
-      </div>
-    </div>
+  <!-- Lábléc -->
+  <footer>
+    <p>&copy; 2025 Saját weboldal</p>
   </footer>
 
   <script src="script.js"></script>
