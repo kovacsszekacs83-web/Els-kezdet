@@ -1,77 +1,65 @@
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #111;
+  margin: 0;
+  padding: 0;
+  background: #111;
   color: #fff;
 }
 
 header {
-  background: linear-gradient(90deg, #ff6600, #cc0000);
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background: linear-gradient(90deg, #ff4500, #ff0000, #000);
+  text-align: center;
+  padding: 2rem;
+  color: white;
 }
 
 header h1 {
-  color: #fff;
+  font-size: 3rem;
   margin: 0;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  margin-left: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-nav ul li a:hover {
-  color: #000;
-}
-
-.hero {
-  background: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') center/cover no-repeat;
-  text-align: center;
-  padding: 100px 20px;
-}
-
-.hero h2 {
-  font-size: 2.5em;
-  color: #ff6600;
-}
-
-.hero p {
-  font-size: 1.2em;
-  color: #fff;
+header h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 main {
-  padding: 40px 20px;
+  padding: 2rem;
 }
 
 h2 {
-  color: #ff6600;
+  color: #ff4500;
+  margin-bottom: 1rem;
 }
 
-ul li {
-  margin: 10px 0;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #222;
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #333;
+}
+
+.card i {
+  font-size: 2rem;
+  color: #ff4500;
+  margin-bottom: 1rem;
 }
 
 footer {
   background: #000;
   text-align: center;
-  padding: 20px;
-  margin-top: 20px;
-  border-top: 3px solid #ff6600;
+  padding: 1rem;
+  margin-top: 2rem;
 }
