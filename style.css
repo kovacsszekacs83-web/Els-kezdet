@@ -1,79 +1,82 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #0d1117;
-  color: white;
+  line-height: 1.6;
+  background: #fff;
+  color: #222;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background: linear-gradient(90deg, #ff6600, #ff9900);
-  font-weight: bold;
+  background: linear-gradient(90deg, #ff6600, #cc0000);
+  color: white;
+  padding: 15px 30px;
 }
 
 header .logo {
-  font-size: 1.5rem;
-}
-
-header nav a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: white;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
-.hero {
-  text-align: center;
-  padding: 4rem 2rem;
-  background: linear-gradient(180deg, #0077ff, #00aaff);
+header nav a {
   color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
 }
 
 .services {
-  padding: 3rem 2rem;
+  padding: 40px 20px;
+  background: #f4f4f4;
+}
+
+.services h2 {
   text-align: center;
+  color: #cc0000;
 }
 
-.services .cards {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
+.services ul {
+  list-style: none;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0;
 }
 
-.card {
-  background: #1a1f2c;
-  padding: 1.5rem;
-  border-radius: 10px;
-  width: 250px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
-  transition: transform 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-8px);
-  background: #222b3d;
+.services li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-left: 5px solid #ff6600;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .contact {
-  background: #161b22;
-  padding: 3rem 2rem;
+  padding: 40px 20px;
   text-align: center;
 }
 
 .contact a {
-  color: #ff9900;
-  font-weight: bold;
+  color: #cc0000;
   text-decoration: none;
+  font-weight: bold;
 }
 
 footer {
   text-align: center;
-  padding: 1rem;
-  background: #0d1117;
-  border-top: 1px solid #333;
-  font-size: 0.9rem;
+  padding: 20px;
+  background: #111;
+  color: white;
 }
