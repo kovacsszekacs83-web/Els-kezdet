@@ -1,35 +1,50 @@
-/* Alap stílus */
+/* Alap stílusok */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
-  background-color: #f4f4f4;
+  line-height: 1.6;
+  background: #f5f5f5;
   color: #333;
+  text-align: center;
 }
 
-/* Fejléc */
 header {
-  background: #4CAF50;
+  background: #0077cc;
   color: white;
   padding: 20px 0;
 }
 
-/* Fő tartalom */
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
 main {
   padding: 20px;
 }
 
-.logo {
-  width: 200px;
-  margin: 20px 0;
+.kapcsolat {
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-/* Lábléc */
+.kapcsolat a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.kapcsolat a:hover {
+  text-decoration: underline;
+}
+
 footer {
-  background: #222;
+  background: #333;
   color: white;
   padding: 10px 0;
   margin-top: 20px;
